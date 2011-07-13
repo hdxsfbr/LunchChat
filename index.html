@@ -23,7 +23,6 @@
                 <p>Welcome to the LunchChat</p>
                 <p>Hopefully we'll decide where to go before we stand up :P</p>
                 <p>Type #suggest before the name of a place to suggest a restaurant</p>
-                <p>Type #vote followed by a restaurant name to vote for a restaurant</p>
                 <label for="nickInput">Name</label>
                 <input id="nickInput" class="text"type="text" name="nick" value=""/>
                 <input id="connectButton" class="button" type="submit" name="" value="Join"/>
@@ -43,9 +42,10 @@
     </div>
     <div id="toolbar">
         <ul id="status">
+             <li style="color:yellow;" >"Type #suggest before the name of a place to suggest a restaurant"</li>
             <li><a id="usersLink" href="#">5 users</a></li>
             <li>uptime: <span id="uptime">?</span></li>
-            <li>memory: <span id="rss">?</span>mb RSS</li>
+             <li>memory: <span id="rss">?</span>mb RSS</li>
         </ul>
         <input tabindex="1" type="text" id="entry"/>
     </div>
